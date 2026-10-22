@@ -1,0 +1,10 @@
+data/
+outputs/
+private/
+*.xlsx
+*.xls
+*.rds
+*.RData
+.Rhistory
+.Renviron
+.Rproj.user/
