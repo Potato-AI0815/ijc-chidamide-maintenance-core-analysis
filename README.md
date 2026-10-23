@@ -30,13 +30,16 @@ In scope:
 - Descriptive, unweighted Kaplan–Meier and cumulative-incidence estimates at
   12 and 24 months (and day 100 for grade III–IV aGVHD). These are descriptive and
   are not adjusted treatment effects.
+- Table 1 display-row standardised mean differences, written to
+  `outputs/table1_source_data.csv`. These differ from the model-matrix term SMDs in
+  `outputs/balance_smd_all_terms.csv` because the variable coding differs between the
+  display table and the model matrix; both are produced.
 
 Not in scope — do not expect these files to reproduce the following:
 
 | Not reproduced | Reason |
 |---|---|
 | **Supplementary Table S11** (maintenance-period TEAE) | The published table reports nine haemorrhagic cystitis cases (any grade). The frozen AE workbook used here contains only the three cases from the original AE listing; six further cases were confirmed later by the investigators from the transplant-complication record. Those additions, and the case-level decisions behind them, are held in controlled data and are deliberately not part of this repository. |
-| Table 1 display-row standardised mean differences | Display-table row-level SMDs are not identical to model-matrix term SMDs. |
 | Table 2 / Supplementary Table S10 (treatment-related AE) | Derived from the frozen safety workbook through a separate attribution workflow. |
 | Supplementary Tables S5 (cytogenetics), S6 (treatment delivery), S9 (NRM causes) | Separate input sources and/or investigator-confirmed conventions. |
 | All figures (1–4, S1–S4) | Figure production uses a separate, multi-stage plotting chain that is not part of this release. |
